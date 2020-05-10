@@ -1,0 +1,9 @@
+clc,clear
+mu=2;sigma=0.5;
+x1=2.22;x2=2.11;
+p=normcdf(x1,mu,sigma)-normcdf(x2,mu,sigma);%计算所求概率
+x=0:0.01:4;
+Px=normpdf(x,mu,sigma);
+Py=normcdf(x,mu,sigma);
+plot(x,Px,'+',x,Py,'*');
+legend('normpdf','normcdf')

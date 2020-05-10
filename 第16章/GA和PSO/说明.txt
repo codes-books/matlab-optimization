@@ -1,0 +1,2 @@
+GA(PSO)为GA和PSO单独优化算法；
+GA_PSO为GA和PSO混合的优化算法；

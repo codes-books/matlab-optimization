@@ -1,0 +1,8 @@
+function result=fitness2(x,D)
+
+for i=1:D
+f=jfg_f(x);
+[g,ceq]=cdj_g(x);
+end
+
+result=f+e*g(1)^2+e*g(2)^2;
